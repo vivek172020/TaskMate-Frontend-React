@@ -1,11 +1,46 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url(./AvenirLTProBlack.otf) format('otf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url(./AvenirNextLTPro-Bold.otf) format('otf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url(./AvenirNextLTPro-BoldCn.otf) format('otf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url(./AvenirNextLTPro-Demi.otf) format('otf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url(./AvenirNextLTPro-DemiCn.otf) format('otf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url(./AvenirNextLTPro-It.otf) format('otf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: local('Montserrat'), url(./AvenirNextLTPro-Regular.otf) format('otf');
+}
+
 * {
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+  font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
 }
 
 body {
-  font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
   line-height: 1.4em;
   font-size: 16px;
   font-weight: 400;
